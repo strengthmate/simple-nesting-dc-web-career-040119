@@ -91,10 +91,8 @@ def adding_matz
 
 array_new = ["LISP", "C"]
 
-programmer_hash[:yukihiro_matsumoto][:known_for] = 'Ruby'
-programmer_hash[:yukihiro_matsumoto][:languages] = array_new
-puts programmer_hash
-binding.pry
+programmer_hash[:yukihiro_matsumoto] = {:known_for => "Ruby", :languages => ["LISP", "C"]}
+programmer_hash
 
 end
 
