@@ -94,6 +94,8 @@ yukihiro_matsumoto = Hash.new
 yukihiro_matsumoto[:known_for] = 'Ruby'
 yukihiro_matsumoto[:languages] = ["LISP", "C"]
 
+programmer_hash[:yukihiro_matsumoto][:known_for] = 
+
 
 end
 
