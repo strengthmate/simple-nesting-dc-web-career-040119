@@ -94,6 +94,7 @@ array_new = ["LISP", "C"]
 programmer_hash[:yukihiro_matsumoto][:known_for] = 'Ruby'
 programmer_hash[:yukihiro_matsumoto][:languages] = array_new
 puts programmer_hash
+binding.pry
 
 end
 
